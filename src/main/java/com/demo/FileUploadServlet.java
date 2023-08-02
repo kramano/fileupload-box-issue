@@ -36,7 +36,7 @@ public class FileUploadServlet extends HttpServlet {
 
         var connection = getConnection();
         var folder = new BoxFolder(connection, "0");
-//        folder.createFolder("fileupload-test");
+        folder.createFolder("fileupload-test");
 
         try {
             var upload = new JakartaServletFileUpload<>();
