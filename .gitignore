@@ -1,0 +1,17 @@
+.classpath
+.project
+.settings
+.DS_Store
+.buildpath
+.metadata
+target
+*.mwb.bak
+*/dependency-reduced-pom.xml
+.flattened-pom.xml
+*.idea
+*.iml
+*.ipr
+*.iws
+.env
+.run
+/src/main/resources/box_config.json
